@@ -18,6 +18,7 @@
 		1967D18022BACBA500312A3D /* CardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1967D17E22BACBA500312A3D /* CardViewController.xib */; };
 		1967D18322BB24C400312A3D /* BucketsTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1967D18222BB24C400312A3D /* BucketsTabBarController.swift */; };
 		1967D18522BB24E900312A3D /* BucketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1967D18422BB24E900312A3D /* BucketViewController.swift */; };
+		1967D18822BBB88900312A3D /* BucketCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1967D18722BBB88900312A3D /* BucketCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		1967D17E22BACBA500312A3D /* CardViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardViewController.xib; sourceTree = "<group>"; };
 		1967D18222BB24C400312A3D /* BucketsTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketsTabBarController.swift; sourceTree = "<group>"; };
 		1967D18422BB24E900312A3D /* BucketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketViewController.swift; sourceTree = "<group>"; };
+		1967D18722BBB88900312A3D /* BucketCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 		1967D16322BAB21600312A3D /* PinkPoncho */ = {
 			isa = PBXGroup;
 			children = (
+				1967D18622BBB85E00312A3D /* New Group */,
 				1967D17622BAB39800312A3D /* View+VC */,
 				1967D16422BAB21600312A3D /* AppDelegate.swift */,
 				1967D16622BAB21600312A3D /* ViewController.swift */,
@@ -112,6 +115,14 @@
 				1967D18222BB24C400312A3D /* BucketsTabBarController.swift */,
 			);
 			path = "Buckets Tab Bar VC";
+			sourceTree = "<group>";
+		};
+		1967D18622BBB85E00312A3D /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				1967D18722BBB88900312A3D /* BucketCollectionViewCell.swift */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,6 +200,7 @@
 			files = (
 				1967D17F22BACBA500312A3D /* CardViewController.swift in Sources */,
 				1967D17922BAB3D400312A3D /* LoginViewController.swift in Sources */,
+				1967D18822BBB88900312A3D /* BucketCollectionViewCell.swift in Sources */,
 				1967D16722BAB21600312A3D /* ViewController.swift in Sources */,
 				1967D16522BAB21600312A3D /* AppDelegate.swift in Sources */,
 				1967D18522BB24E900312A3D /* BucketViewController.swift in Sources */,
